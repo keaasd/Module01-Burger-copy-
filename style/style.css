@@ -275,7 +275,8 @@ main {
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
     width: 100%;
     height: 430px;
 }
@@ -313,7 +314,9 @@ main {
     font-size: 15px;
     font-size: 15px;
     background: #FFFFFF;
-    appearance: none;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
     flex-basis: 279px;
     background-image: url(../img/arroy.svg);
     background-size: 12.79px 7.75px;
@@ -873,7 +876,7 @@ h1 span {
 }
 @media (max-width: 567px) {
     .container {
-        /* max-width: 290px; */
+        max-width: 550px;
         
     }
     nav {
@@ -905,8 +908,6 @@ h1 span {
         background-position: 17% center;
               
     } */
-
-}
 @media (max-width: 360px) {
     .header-logo {
         width: 116px;
@@ -1010,3 +1011,5 @@ background-position: center; */
     
       
 } */
+
+}
