@@ -373,6 +373,8 @@ main {
 .container2 {
     max-width: 1180px;
     margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
     display: flex;
     justify-content: space-between;    
 }
@@ -742,6 +744,12 @@ h1 span {
     right: 20px;
 }
 /*==== responsive @media (min-width: 1349px) {} ================================================= */
+@media (max-width:1366px) {
+    .container {
+        max-width: 1180px;      
+    }   
+}
+
 @media (min-width: 1001px) {
     .footer-list + .footer-list-tel {
         display: none;
@@ -809,6 +817,9 @@ h1 span {
     }
 }
 @media (max-width: 765px) {
+    .container2 {
+        max-width: 760px;
+    }
     nav {
         display: none;
     }
@@ -864,6 +875,9 @@ h1 span {
     .container {
         max-width: 550px;        
     }
+    .container2 {
+        max-width: 550px;
+    }
     nav {
         display: none;
     }
@@ -889,13 +903,44 @@ h1 span {
         background-position: 17% center;
         padding: 35px 24px 54px;
         /* padding-bottom: 121px; */
-    }    
+    }
+    .menu-select {
+        flex-basis: 223px;
+    }  
 }
-/* @media (max-width: 413px) {
-    .banner-box {        
-        background-position: 17% center;
-    } */
+@media (max-width: 564px) {
+    .container2 {
+        max-width: 564px;
+        gap: 35px;
+        flex-direction: column;
+    }
+    .banner-box {
+        background-position: 0% center;
+    }
+}
+@media (max-width: 408px) {    
+    .title {
+        font-size: 27px;
+    }
+    .menu-grid-cover {
+        height: 220px;
+    }
+    .menu-grid-cover-2 {
+        height: 220px;
+    }
+    .menu-other {
+        overflow: hidden;
+        height: 502px;
+    }
+}
 @media (max-width: 360px) {
+    .container {
+        max-width: 358px;        
+    }
+    .container2 {
+        max-width: 358px;
+        flex-direction: column;
+    }
     .header-logo {
         width: 116px;
         height: 37px;
@@ -905,6 +950,10 @@ h1 span {
         background-size: contain;
         width: 116px;
         height: 37px;
+    }
+    .menu-other {
+        overflow: hidden;
+        height: 502px;
     }         
 }
 @media (max-width: 320px) {
@@ -912,13 +961,17 @@ h1 span {
         background-position: 25% center;        
     }
     .container {
-        max-width: 290px;        
+        max-width: 318px;        
+    }
+    
+    .container2 {
+        max-width: 358px;
+        flex-direction: column;
     }
     .header-item {
         flex-basis: 10%;
     }
-    .menu-title {    
-        
+    .menu-title {        
         font-size: 27px;
         line-height: 56px;        
     }
@@ -944,8 +997,19 @@ h1 span {
     .menu-grid {
         gap: 50px 15px;
     }
+    .menu-other {
+        overflow: hidden;
+        height: 502px;
+    }
 } 
-@media (max-width: 320px) {
+@media (max-width: 280px) {
+    .container {
+        max-width: 280px;
+    }
+    .container2 {
+        max-width: 280px;
+        flex-direction: column;
+    }
     .breadcrumbs a {        
         font-size: 14px;
     }
@@ -966,4 +1030,7 @@ h1 span {
         display: flex;
         justify-content: space-between;
     }
+    .footer-item h2 {
+        font-size: 18px;        
+    }    
 }
