@@ -383,7 +383,7 @@ main {
 }
 .menu-grid-btn:hover {
     background-color: #F37335;
-    border: 1px solid #FBB731;;
+    border: 1px solid #F37335;;
 }
 
 .menu-grid-icon {
@@ -474,7 +474,9 @@ main {
     margin-top: 3px;
 }
 
-
+.footer-list + .footer-list-tel {
+    display: none;
+}
 .footer-list-tel li {
     margin-bottom: 12px;
 }
@@ -797,7 +799,7 @@ h1 span {
     top: 20px;
     right: 20px;
 }
-/
+
 
 
 
