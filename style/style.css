@@ -957,49 +957,151 @@ h1 span {
     }         
 }
 @media (max-width: 320px) {
-    .banner-box {        
-        background-position: 25% center;        
+    .header {
+        padding-top: 34px;
+        padding-bottom: 19px;
+    }    
+    .header-item {
+        flex-basis: 52%;
     }
-    .container {
-        max-width: 318px;        
+    .bg {
+        padding: 55px 0px 59px 0px;
+        margin-bottom: 0;
+        
+    }
+    .breadcrumbs {
+        font-size: 14px;
+        margin-bottom: 0;
+    }
+    .title {
+        font-size: 38px;
+        padding-top: 27px;
+        padding-bottom: 13px;
+    }
+    .description {        
+        font-size: 12px;        
+        max-width: 263px;        
+    }
+    .banner {
+        margin-top: 33px;
+    }
+    .header-logo {
+        background-size: cover;
+    }
+    .banner-box {        
+        background-position: 19% center;        
+    }
+    .banner-text {
+        padding-bottom: 18px;
+    }
+    .menu {
+        margin-top: 30px;
+        margin-bottom: 0;
+    }
+    .additionally .container {
+        max-width: 320px;
+        padding-left: 15px;
+        padding-right: 0;
     }
     
     .container2 {
         max-width: 358px;
         flex-direction: column;
     }
+    .banner-text {        
+        max-width: 233px;
+    }
+    .banner-box {
+        background-position: 19% center;
+    }        
     .header-item {
-        flex-basis: 10%;
+        flex-basis: 57%;
     }
     .menu-title {        
         font-size: 27px;
-        line-height: 56px;        
+        line-height: 56px;
+        padding: 21px 0;        
     }
+    
     .menu-grid-title {
         font-size: 13px;
         font-weight: 700;
+        padding-top: 11px;
+    }
+    .menu-other .menu-grid-item {
+        flex: 0 0 141px;
     }
     .menu-grid-cover {
         height: 180px;
     }
+    .menu-grid-cover-2 {
+        height: 180px;
+    }
+    .menu-grid-cover-2 .menu-grid-img {
+        height: 180px;
+    }
     .menu-grid-price {
-        font-size: 16px;        
+        font-size: 16px;
+        padding-bottom: 0;        
     }
     .menu-header {
         gap: 26px;
     }
     .menu-select {
-        padding: 13px 27px;
-        font-size: 15px;        
-        flex-basis: 279px;
-        background-size: 12.79px 7.75px;
+        padding: 12px 15px;
+        font-size: 12px;
+        flex-basis: 274px;
+    }
+    .menu-grid-cover {
+        width: 139px;
+        height: 180px;        
+    }
+    .menu-grid-cover .menu-grid-img {        
+        height: 180px;
+    }
+    .menu-grid-btn {
+        padding: 8px 16px;
+        margin: 10px auto 0;
     }
     .menu-grid {
-        gap: 50px 15px;
+        gap: 25px 12px;
+    }
+    .additionally .menu-grid {
+        gap: 50px 3px;
+    }
+    .additionally {
+        margin-top: 32px;
+        margin-bottom: 0px;
     }
     .menu-other {
         overflow: hidden;
-        height: 502px;
+        height: 380px;
+    }
+    .footer {
+        margin-top: 60px;
+        padding-top: 62px;        
+    }
+    .container2 {
+        display: grid;
+        
+        grid-template-columns: repeat(2,1fr);
+        grid-template-areas: "a c b" "d d c";
+        gap: 10px;
+    }
+    .container2 > .footer-item {
+    /* padding: 20px; */
+    }
+    .container2 > .footer-item:nth-child(1) {
+    grid-area: a;
+    }
+    .container2 > .footer-item:nth-child(2) {
+    grid-area: b;
+    }
+    .container2 > .footer-item:nth-child(3) {
+    grid-area: c;
+    }
+    .container2 > .footer-item:nth-child(4) {
+    grid-area: d;
     }
 } 
 @media (max-width: 280px) {
