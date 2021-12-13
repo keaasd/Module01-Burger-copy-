@@ -986,6 +986,52 @@ h1 span {
     }         
 }
 @media (max-width: 320px) {
+    /* ---- Index.html ---- */
+    .main2 {
+        background: linear-gradient(
+    180deg, #0C4C7B -100%, #1E2F40 100%);
+        display: flex;
+        width: 729px;
+        height: 511px;
+        position: relative;
+    }
+    .main2 img {
+        width: 376px;
+        position: absolute;
+        right: -126px;
+    }
+    .contents {
+        flex: 0 0 151px;
+        padding-top: 90px;
+        padding-bottom: 90px;
+    }   
+    .content-title {
+        font-size: 54px;    
+        margin-bottom: 40px;
+        line-height: 60px;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-bottom: 17px;
+    }
+    .visual-bg {
+        width: 246px;
+    }
+    h1 span {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;        
+        margin-bottom: 7px;
+    }
+    .content-text {
+        font-size: 14px;
+        line-height: 1.4;
+        margin-bottom: 40px;
+    }
+    .wrap {
+        max-width: 280px;
+        margin-left: 60px;
+    }
+    /* ---- menu.html ---- */
     .header {
         padding-top: 34px;
         padding-bottom: 19px;
