@@ -67,7 +67,7 @@ header {
     align-items: center;
     background-color: transparent;
     border: none;
-    list-style-position: none;
+    list-style-type: none;
     padding: 0;
     cursor: pointer; 
     gap: 10px;   
@@ -722,7 +722,7 @@ h1 span {
     margin: 20px auto 0;
     transition: 0.5s;
     padding: 40px 30px;
-    border-sizing: border-box;
+    box-sizing: border-box;
 }
 #modal .header-nav {
     flex-direction: column;
