@@ -916,7 +916,36 @@ h1 span {
     }
     .banner-box {
         background-position: 0% center;
+    }    
+}
+@media (max-width: 519px) {
+.bg {
+    padding: 55px 0px 59px 0px;
+    margin-bottom: 0;    
     }
+}
+@media (max-width: 408px), (max-width: 480px) {
+    .menu-grid-title {
+        font-size: 22px;
+    }
+    .footer {
+        position: relative;
+    }
+    .footer-item .tablet {
+        display: none;
+    }
+    .footer-tel {
+        display: block;
+        position: absolute;
+        right: 15px;
+        top: 55px;
+    }
+    .footer {
+        margin-top: 60px;
+        padding-top: 62px;
+        padding-bottom: 61px;       
+    }
+    
 }
 @media (max-width: 408px) {    
     .title {
@@ -965,6 +994,7 @@ h1 span {
         flex-basis: 52%;
     }
     .bg {
+        background-image: url(../img/bg-320.jpg);
         padding: 55px 0px 59px 0px;
         margin-bottom: 0;
         
@@ -972,6 +1002,9 @@ h1 span {
     .breadcrumbs {
         font-size: 14px;
         margin-bottom: 0;
+    }
+    .breadcrumbs a {
+        font-size: 14px;
     }
     .title {
         font-size: 38px;
@@ -992,8 +1025,9 @@ h1 span {
         background-position: 19% center;        
     }
     .banner-text {
-        padding-bottom: 18px;
-    }
+        max-width: 233px;
+        padding-bottom: 17px;        
+    }    
     .menu {
         margin-top: 30px;
         margin-bottom: 0;
@@ -1002,16 +1036,19 @@ h1 span {
         max-width: 320px;
         padding-left: 15px;
         padding-right: 0;
-    }
-    
+    }    
     .container2 {
         max-width: 358px;
         flex-direction: column;
         position: relative;
         gap: 31px;
     }
-    .banner-text {        
-        max-width: 233px;
+    .sale {
+        margin-bottom: 5px;
+    }
+    
+    .banner-title {
+        padding-bottom: 0px;
     }
     .banner-box {
         background-position: 19% center;
@@ -1133,8 +1170,13 @@ h1 span {
         max-width: 280px;
     }
     .container2 {
-        max-width: 280px;
-        flex-direction: column;
+        max-width: 280px;        
+    }
+    .header {
+        gap: 12px;
+    }
+    .banner-box {
+        background-position: 18% center;
     }
     .breadcrumbs a {        
         font-size: 14px;
@@ -1158,5 +1200,9 @@ h1 span {
     }
     .footer-item h2 {
         font-size: 18px;        
+    }
+    .footer-list-tel a {
+        font-size: 19px;
+        font-weight: 600;
     }    
 }
