@@ -2,4 +2,3 @@
 
 * [Макет сайта Figma] (https://www.figma.com/file/zztHYu1vmau2HsoN6CxnA6/Burgers-Menu-Responsive-(Copy)?node-id=702%3A197)
 * [Демо сайта] (https://keaasd.github.io/Module01-Burger-copy-/menu.html)
-![GitHub Light](https://github.com/github-light.png#gh-dark-mode-only)
